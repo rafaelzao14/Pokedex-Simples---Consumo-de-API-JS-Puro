@@ -89,7 +89,8 @@ function criarCard(array){
 
     }else if(tipoPokemon.toLowerCase() == 'dragon'){
         tipo.innerHTML        = tipoPokemon[0].toUpperCase() + tipoPokemon.substring(1)
-        tipo.style.background = '#b8faff'
+        tipo.style.background = '#5015bd'
+        tipo.style.color = '#FFFFFF'
         tipo.style.padding = '0.5rem'
         tipo.style.borderRadius = '7px'
 
@@ -102,6 +103,18 @@ function criarCard(array){
     }else if(tipoPokemon.toLowerCase() == 'fairy'){
         tipo.innerHTML        = tipoPokemon[0].toUpperCase() + tipoPokemon.substring(1)
         tipo.style.background = '#eb9d8d'
+        tipo.style.padding = '0.5rem'
+        tipo.style.borderRadius = '7px'
+
+    }else if(tipoPokemon.toLowerCase() == 'fighting'){
+        tipo.innerHTML        = tipoPokemon[0].toUpperCase() + tipoPokemon.substring(1)
+        tipo.style.background = '#d8d8c0'
+        tipo.style.padding = '0.5rem'
+        tipo.style.borderRadius = '7px'
+
+    }else if(tipoPokemon.toLowerCase() == 'ice'){
+        tipo.innerHTML        = tipoPokemon[0].toUpperCase() + tipoPokemon.substring(1)
+        tipo.style.background = '#b8faff'
         tipo.style.padding = '0.5rem'
         tipo.style.borderRadius = '7px'
 
