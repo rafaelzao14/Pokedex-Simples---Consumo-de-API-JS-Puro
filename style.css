@@ -1,0 +1,76 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Radio Canada', sans-serif;
+    background-image: url(background.jpg);
+    width: auto;
+    height: auto;
+}
+
+#cabecalho{
+    display: flex;
+    flex-direction: column;
+    width: 115rem;
+    height: 17rem;
+    display: flex;
+    margin-top: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+#logo{
+    width: 35rem;
+}
+#cabecalho span{
+    text-align: center;
+    background-color: #e0e0e0;
+    width: 25rem;
+    height: 15rem;
+    border-radius: 7px;
+    margin-top: 1rem;
+    padding: 1rem;
+}
+#containerPrincipal{
+    display: flex;
+    flex-direction: row;
+}
+#listaPokedex{
+    margin-top: 10rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+#cardPokemon{
+    width: 10rem;
+    height: 15rem;
+    border: 1px solid #e0e0e0;
+    border-radius: 7px;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    background-color: #f0f0f0;
+   
+}
+#cardPokemon:hover{
+    transition: .4s;
+    border: 1px solid gray;
+    transform: scale(105%);
+}
+#cardPokemon img{
+    width: 8rem;
+    height: 8rem;
+    margin-bottom: 2rem;
+}
+#cardPokemon span{
+    font-weight: 700;
+}
+#numeroDex {
+    font-weight: 800;
+}
