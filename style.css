@@ -1,12 +1,14 @@
 body{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    align-content: center;
     align-items: center;
+    justify-content: center;
     font-family: 'Radio Canada', sans-serif;
     background-image: url(background.jpg);
-    width: auto;
-    height: auto;
+    background-position: center;
+
+
 }
 
 #cabecalho{
@@ -18,9 +20,6 @@ body{
     margin-top: 1rem;
     justify-content: center;
     align-items: center;
-}
-#logo{
-    width: 35rem;
 }
 #cabecalho span{
     text-align: center;
@@ -34,6 +33,10 @@ body{
 #containerPrincipal{
     display: flex;
     flex-direction: row;
+    width: 90%;
+    margin: 0 auto;
+    height: 50%;
+    justify-content: center;
 }
 #listaPokedex{
     margin-top: 10rem;
@@ -41,6 +44,7 @@ body{
     justify-content: center;
     flex-direction: row;
     flex-wrap: wrap;
+    width: 90%;
 }
 #cardPokemon{
     width: 10rem;
@@ -64,9 +68,9 @@ body{
     transform: scale(105%);
 }
 #cardPokemon img{
-    width: 8rem;
-    height: 8rem;
-    margin-bottom: 2rem;
+    width: 70%;
+    height: 65%;
+    padding: 10px;
 }
 #cardPokemon span{
     font-weight: 700;

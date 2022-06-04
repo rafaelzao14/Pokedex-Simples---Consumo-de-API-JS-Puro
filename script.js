@@ -124,6 +124,8 @@ function criarCard(array){
 
     numero.id = 'numeroDex'
     liPokemon.id = 'cardPokemon'
+    liPokemon.classList.add('card-body')
+    imagemPoke.classList.add('card-img-top')
     liPokemon.append(imagemPoke, nome, tipo, numero)
     ulPrincipal.append(liPokemon)
     return liPokemon
